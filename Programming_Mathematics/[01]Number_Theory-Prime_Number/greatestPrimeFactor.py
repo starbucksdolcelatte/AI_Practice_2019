@@ -15,14 +15,14 @@ def eratosthenes(n):
     # 소수 목록 산출
     return [i for i in range(2, n) if sieve[i] == True]
 
-def greatPrimeFacter(n):
+def greatPrimeFactor(n):
     s = eratosthenes(n)
     len_s = len(s)-1
     # To-do
     for i in range(len(s)):
         num = s[len_s - i]
         if(n % num == 0):
-            return num   
+            return num
 
 
-print(greatPrimeFacter(6))
+print(greatPrimeFactor(6))
