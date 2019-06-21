@@ -11,7 +11,6 @@ def eratosthenes(n):
             while (j*i < n):
                 sieve[i*j] = False
                 j += 1
-            pass
             print(sieve)
     # 소수 목록 산출
     return [i for i in range(2, n) if sieve[i] == True]
