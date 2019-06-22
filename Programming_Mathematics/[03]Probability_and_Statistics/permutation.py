@@ -10,5 +10,4 @@ def running_team(n, r):
 
     return res
 
-
 print(running_team(5, 2))
