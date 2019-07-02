@@ -12,3 +12,6 @@ e = ["유진", "민철", "가영", "민희", "영진", "미희", "진수", "영�
 f = ["YJ", "MC", "GY", "MH", "YJ", "MH", "JS", "YC", "MJ", "YH", "HJ", "JH", "CS"]
 correspond_e_f = [[x,y] for x,y in zip(e,f)]
 print(correspond_e_f)
+
+correspond_c_c = [[x,y] for x,y in zip(country, city)]
+print(correspond_c_c)
