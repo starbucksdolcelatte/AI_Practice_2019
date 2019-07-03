@@ -1,7 +1,7 @@
 '''
 파이썬은 함수를 정의할 때 함수 인자를 따로 설정하지 않고
 함수를 사용할 때마다 필요한 만큼 넣을 수 있게 하는 기능을 제공합니다.
-# function(**kargs)
+# function(**kwargs)
 # ‘keyword=value’ 라는 형태로 값을 받으며,
 이를 {‘keyword’: value} 형태를 지닌 kargs라는 이름의 딕셔너리 값으로 저장합니다.
 '''
