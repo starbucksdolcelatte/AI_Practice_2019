@@ -15,6 +15,7 @@ def print_func(**kwargs):
 print('\n\n***** print_func *****')
 print_func(num1 = 3, num2 = 5, num3 = 10)
 
+# 내가 만든 시리 함수
 def siri(**kwargs):
     for key in kwargs.keys():
         print(f'{key} : {kwargs[key]}')
