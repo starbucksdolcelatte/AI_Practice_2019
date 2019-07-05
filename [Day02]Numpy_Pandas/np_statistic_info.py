@@ -1,0 +1,20 @@
+import numpy as np
+
+x = np.random.randint(0,10,20)
+print('x ', x)
+print('median ', np.median(x))
+print('max ', np.max(x))
+print('min ', np.min(x))
+print('mean ', np.mean(x))
+print('var ', np.var(x))
+print('std ', np.std(x))
+
+randn = np.random.randn(30,3)
+rand = np.random.rand(30,3)
+print('var 분산 randn', np.var(randn))
+print('std 표준편차 randn square ', (np.std(randn)) ** 2)
+print('var 분산 rand ', np.var(rand))
+print('std 표준편차 rand square ', (np.std(rand)) ** 2)
+print('표준편차 std는 분산 var의 제곱근')
+print('분산 var은 편차의 제곱의 합을 변량의 개수로 나눈 것')
+print('편차는 각 변량과 평균과의 차')
